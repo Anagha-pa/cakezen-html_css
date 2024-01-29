@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to create a webpage using html and css</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- header start -->
+    <nav>
+        
+        <img class="logo" src="images/cakezen-logos.jpeg" alt="nav-logo">
+        
+        <ul>
+            <a class="active" href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Products</a>
+            <a href="#">Contact Us</a>
+        </ul>
+    </nav>
+    
+
+    <!-- main  -->
+    <main>
+
+        <!-- section home -->
+        <section class="home" id="home"  >
+            <img class="home-img" src="images/home-img.jpg" alt="home-img">
+            <p class="home-para">"Indulge in layers of bliss with our decadent <br> chocolate fudge cake – a symphony of rich cocoa <br>and velvety goodness."</p>
+        </section>
+
+        <!-- section 1 -->
+        <section class="section1" id="about">
+            <div class="section1-left">
+                <img class="section1-img" src="images/section1img.jpg" alt="section1img">
+            </div>
+            <div class="section1-right" >
+                <h3 class="sec1-heading">Hive Coffee Cake</h3>
+                <p class="sec1-para">
+                    Bringing the traditional Russian treat to India, Honey Cake has successfully 
+                    introduced the immaculate Russian Honey Cake from the 19th century. As the 
+                    premier manufacturers of this luscious fusion in the Middle East, our dedicated 
+                    bakers at Hive Cake have devoted weeks, nights, and days to recreating this flawless
+                    dessert. The result is a masterpiece that perfectly aligns with the Russian taste and structure, 
+                    capturing the essence of this beloved confection. Furthermore, throughout the entire process, 
+                    Hive’s venture to reimagine this delightful confection with the expertise of a Russian chef has 
+                    been nothing short of extraordinary. Moreover, we take pride in our ability to furnish a taste that 
+                    cannot be matched for generations to come, making Hive’s Russian Honey Cake an unparalleled culinary experience.
+                </p>
+                <button class="sec1-button">Contact Us</button>
+            </div>
+        </section>
+
+
+        <!-- section 3 -->
+        <section id="products">
+
+            <div class="card-list">
+                <div class="card-item">
+                    <img src="images/redvelvet-cake.jpg" alt="">
+                    <span>Red Velvet</span>
+                    <h3>"Indulge in the velvety allure of our signature Red Velvet Cake, where layers of moist 
+                        crimson-hued sponge intertwine with sumptuous cream cheese frosting. "
+                    </h3>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card-list">
+                <div class="card-item">
+                    <img src="images/lavender-cake.jpg" alt="">
+                    <span>Lavender Mist</span>
+                    <h3>"Surrender to the enchanting allure of our Lavender Velvet Cake, where the delicate essence 
+                    of lavender gracefully intertwines with the velvety layers, create."</h3>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card-list">
+                <div class="card-item">
+                    <img src="images/pista-cake.jpg" alt="">
+                    <span>Pista Bliss</span>
+                    <h3>"Satisfy your sweet cravings with our Pistachio Paradise Cake, where the delicate nuttiness 
+                    of premium pistachios meets the luscious layers of moist sponge."</h3>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card-list">
+                <div class="card-item">
+                    <img src="images/orange-cake.jpg" alt="">
+                    <span>Orange Delight</span>
+                    <h3>"Discover the epitome of citrus elegance with our Orange Blossom Bliss cake. Each slice is a symphony 
+                    of tangy citrus notes harmonizing with the sweet embrace of velvety ."</h3>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- section 4 -->
+        <section id="contact"></section>
+        <div class="contact">
+            <div class="contact-left">
+                <img class="msg" src="images/contact.jpg" alt="msg">
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <label for="fname">Name</label><br>
+                    <input type="text" id="fname" name="fname" ><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="text">Message</label><br>
+                    <textarea name="" id="" cols="30" rows="10"></textarea><br>
+                    <button type="submit" >Submit</button>
+                  </form>
+            </div>
+        </div>
+        
+
+    </main>
+    
+    <!-- footer -->
+    <footer>
+        <p>&copy; 2024 cakezen. All rights reserved.</p>
+    </footer>
+
+
+</body>
+</html>
+
